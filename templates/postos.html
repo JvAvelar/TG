@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container">
+    <h2>Atiradores</h2>
+    <br>
+    {% for usuario in lista_usuarios: %}
+        <strong>{{usuario}}</strong>
+         <hr>
+
+    <!- colocar a foto de cada um dos senhores próximo ao nome->
+
+    {% endfor %}
+
+
+
+</div>
+{% endblock %}
